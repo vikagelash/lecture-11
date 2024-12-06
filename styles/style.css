@@ -1,0 +1,40 @@
+.contact {
+    color: #5863E3;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.support {
+    font-size: 49px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    max-width: 371px;
+}
+
+.contactsupport {
+    padding-top: 3%;
+    padding-left: 6%;
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],input[type=email], input[type=submit] {
+    max-width: 370px;
+}
+
+input[type=submit] {
+    background-color: #5968F4;
+    color: white;
+    max-height: 59px;
+    height: 100%;
+}
